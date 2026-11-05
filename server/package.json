@@ -1,0 +1,13 @@
+{
+  "name": "server",
+  "private": true,
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.1.0",
+    "node-watch": "^0.7.4"
+  }
+}
